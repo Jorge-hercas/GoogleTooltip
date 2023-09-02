@@ -70,7 +70,7 @@ autocomplete_textOutput <- function(key = Sys.getenv("google_key"), label = "Set
     div(
       text_input,
       textOutput(outputId = "address"),
-      HTML(paste0(" <script>
+      HTML(paste0(" <script> 
                 function initAutocomplete() {
 
                  var autocomplete =   new google.maps.places.Autocomplete(document.getElementById('",inputId,"'),{types: ['geocode']});
